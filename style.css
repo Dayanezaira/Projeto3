@@ -1,0 +1,165 @@
+body {
+    background: #E5E5E5;
+}
+body::before {
+    content: '';
+    background: #535971;
+    position: absolute;
+    height: 436px;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+.sheet {
+    Width: 750px;
+    margin: auto;
+}
+header {
+    width: 417px;
+    margin-top: 140px;
+}
+header h1 {
+    font-family: 'Staatliches', cursive;
+    color: #FFFFFF;
+    font-size: 48px;
+    line-height: 60px;
+    font-weight: 400;
+    margin-bottom: 18px;
+}
+header p {
+    font-family: 'Poppins', sans-serif;
+    color: #FFFFFF;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 400;
+}
+form {
+    background: #FFFFFF;
+    border-radius: 20px 20px 0px 0px;
+    min-height: 1084px;
+    margin-top: 58px;
+    padding: 64px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+fieldset {
+    border: none;
+}
+.generic {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+fieldset legend {
+    font-family: 'Staatliches', cursive;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 34px;
+    color: #535971;
+    border-bottom: 1px solid #E6E6F0;
+    width: 100%;
+    padding-bottom: 16px;
+}
+label, input {
+    font-family: 'Poppins', sans-serif;
+    color: #4E4958;
+}
+.micro-box1 {
+    display: flex;
+    gap: 22px;
+}
+.micro-box2 {
+    display: flex;
+}
+.micro-box2 > div:nth-child(2), .micro-box2 > div:nth-child(3) {
+    width: 140px;
+} 
+.group-01, .group-02, .group-03{
+    display: flex;
+    flex-direction: column;
+}
+.group-01 label, .group-02 label, .group-03 label, .group-04 label {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    margin-bottom: 8px;
+}
+.group-01 label, .group-03 label {
+    padding-top: 32px;
+}
+.group-01 input, .group-02 input, .group-03 input, .group-04 input {
+    color: #535971;
+}
+.group-01 input, .group-04 input {
+    background: #FAFAFC;
+    border: 1px solid #E6E6F0;
+    border-radius: 8px;
+    box-sizing: border-box;
+    padding: 0 20px;
+    height: 56px;
+}
+.group-01 input {
+    Width: 290px;
+}
+.group-02 input, .group-03 input {
+    background: #FAFAFC;
+    border: 1px solid #E6E6F0;
+    border-radius: 8px;
+    box-sizing: border-box;
+    padding: 0 20px;
+    height: 56px;
+    Width: 600px;
+}
+.group-02 span, .group-03 span {
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    line-height: 20px;
+    color: #C1BCCC;
+}
+h2, h3 {
+    font-family: 'Staatliches', cursive;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 34px;
+    color: #535971;
+    margin-bottom: 8px;
+}
+.group-04 {
+    display: flex;
+    flex-direction: column;
+}
+.micro-box2 > div:nth-child(1) {
+    width: 290px;
+    margin-right: 32px;
+}
+.micro-box2 > div:nth-child(2), .micro-box2 > div:nth-child(3){
+    width: 140px;
+}
+.micro-box2 > div:nth-child(2) {
+    margin-right: 10px;
+}
+footer {
+    background: #535971;
+    border-radius: 0px 0px 20px 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 52px 71px;
+}
+footer .button {
+    background: #FF5374;
+    height: 55.65px;
+    width: 608px;
+    padding: 15px 40px;
+    border-radius: 20px;
+    border: 0;
+    font-family: 'Staatliches', cursive;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+}
+footer .button:hover {
+    background: #c22242;
+}
